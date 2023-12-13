@@ -6,7 +6,7 @@ function cargarCSS(archivo) {
     document.head.appendChild(link);
 }
 
-var carpetaCSS = '/';
+var carpetaCSS = '';
 var archivosCSS = ['index.css', 'header.css','footer.css','main.css'];
 
 archivosCSS.forEach(function (file) {
